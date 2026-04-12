@@ -5,25 +5,42 @@ import html
 import os
 
 FEEDS = [
-    "https://customerthink.com/feed/",
-    "https://feeds2.feedburner.com/CMSWire",
-    "https://behavioralscientist.org/feed/",
-    "https://www.nngroup.com/feed/rss/",
-    "https://sloanreview.mit.edu/feed/",
-    "https://www.intercom.com/blog/feed",
-    "https://www.zendesk.com/blog/feed/",
-    "https://www.medallia.com/blog/feed/",
-    "https://www.qualtrics.com/blog/feed/",
-    "https://www.forrester.com/blogs/feed",
-    "https://www.mckinsey.com/insights/rss",
-    "https://www.totango.com/feed/",
-    "https://www.gainsight.com/feed/",
-    "https://cx-ai.com/feed/",
-    "https://experiencematters.blog/feed/",
-    "https://cxm.co.uk/feed/",
+    # Рівень 1: щоденні новини + data-driven журналістика
     "https://www.customerexperiencedive.com/feeds/news/",
+    "https://customerthink.com/feed/",
+    "https://www.cmswire.com/feed/",
     "https://www.cxnetwork.com/rss",
-    "https://www.mycustomer.com/feed",
+    "https://cxm.world/feed/",
+
+    # Рівень 2: незалежні практики і консультанти
+    "https://cx-journey.com/feed",
+    "https://www.adrianswinscoe.com/feed/",
+    "https://experienceinvestigators.com/feed/",
+    "https://heartofthecustomer.com/feed/",
+    "https://hyken.com/feed/",
+
+    # Рівень 3: Substack-автори
+    "https://www.dcxnewsletter.com/feed",
+    "https://cxstories.substack.com/feed",
+    "https://www.thecscafe.com/feed",
+    "https://metricstack.substack.com/feed",
+
+    # Рівень 4: дослідження і стратегія
+    "https://hbr.org/feed",
+    "https://sloanreview.mit.edu/feed/",
+    "https://www.forrester.com/blogs/feed",
+    "https://www.gartner.com/en/newsroom/rss",
+    "https://www.strategy-business.com/rss",
+
+    # Рівень 5: behavioral science і метрики
+    "https://behavioralscientist.org/feed/",
+    "https://bcfg.substack.com/feed",
+    "https://thedecisionlab.com/feed/",
+    "https://www.nngroup.com/feed/rss/",
+
+    # Рівень 6: XM дослідження і AI в сервісі
+    "https://www.qualtrics.com/blog/feed/",
+    "https://www.intercom.com/blog/feed",
 ]
 
 MAX_ITEMS = 30
