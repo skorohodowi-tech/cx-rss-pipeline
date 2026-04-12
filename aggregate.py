@@ -23,7 +23,6 @@ FEEDS = [
     "https://cxm.co.uk/feed/",
     "https://www.convinceandconvert.com/feed/",
     "https://martech.org/feed/",
-    "https://neilpatel.com/blog/feed/",
     "https://hbr.org/",
 ]
 
