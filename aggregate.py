@@ -21,9 +21,9 @@ FEEDS = [
     "https://cx-ai.com/feed/",
     "https://experiencematters.blog/feed/",
     "https://cxm.co.uk/feed/",
-    "https://www.convinceandconvert.com/feed/",
-    "https://martech.org/feed/",
-    "https://hbr.org/",
+    "https://www.customerexperiencedive.com/feeds/news/",
+    "https://www.cxnetwork.com/rss",
+    "https://www.mycustomer.com/feed",
 ]
 
 MAX_ITEMS = 30
