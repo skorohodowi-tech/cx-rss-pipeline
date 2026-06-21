@@ -41,9 +41,23 @@ FEEDS = [
     # Рівень 6: XM дослідження і AI в сервісі
     "https://www.qualtrics.com/blog/feed/",
     "https://www.intercom.com/blog/feed",
+
+    # Рівень 7: маркетинг і позиціонування
+    "https://seths.blog/feed/",
+    "https://blog.hubspot.com/marketing/rss.xml",
+    "https://www.marketingweek.com/feed/",
+
+    # Рівень 8: AI в бізнесі
+    "https://www.technologyreview.com/feed/",
+    "https://www.fastcompany.com/feed",
+
+    # Рівень 9: Customer Success і B2B SaaS
+    "https://www.gainsight.com/blog/feed/",
+    "https://churnzero.com/blog/feed/",
+    "https://www.saleshacker.com/feed/",
 ]
 
-MAX_ITEMS = 60
+MAX_ITEMS = 80
 
 
 def fetch_all():
