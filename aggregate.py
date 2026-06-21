@@ -51,7 +51,7 @@ def fetch_all():
     for url in FEEDS:
         try:
             feed = feedparser.parse(url)
-            for entry in feed.entries[:2]:
+            for entry in feed.entries[:3]:
                 pub = entry.get("published_parsed") or entry.get("updated_parsed")
                 if pub:
                     dt = datetime(*pub[:6], tzinfo=timezone.utc)
